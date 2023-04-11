@@ -1,0 +1,52 @@
+body{
+    background: #53349C;
+}
+.content{
+    margin: 0 auto;
+    background: #fbc2c8;
+    width: 70%;
+    padding: 20px 35px;
+}
+h1{
+    text-align: center;
+    color: #53349C;
+}
+.box{
+    flex-grow: 1;
+    flex-basis: 100px;
+    background: #fff;
+    border-radius: 9px;
+    text-align: center;
+    height: 20vh;
+}
+.box i{
+    margin: 1rem;
+    color: #53349C;
+}
+.form{
+    padding-top: 8px;
+}
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.input-form input,
+textarea{
+    width: 100%;
+}
+.input-form input{
+    height: 30px;
+}
+.bnt-group button{
+    padding-top: 40px;
+    gap: 10px;
+    width: 101%;
+    color: white;
+    background-color: #53349C;
+    font-size: 10px;
+    text-align: center;
+    border: none;
+    height: 43px;
+    padding: 15px;
+}
